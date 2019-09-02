@@ -6,7 +6,7 @@ import matplotlib.pyplot as plot
 from scipy import signal
 
 
-file_path = "./RML2016.10a/RML2016.10a_dict.pkl"
+file_path = "../datasets/RML2016.10a/RML2016.10a_dict.pkl"
 with open(file_path, 'rb') as f:
     Xd = pickle.load(f, encoding='bytes')
     print(Xd)
